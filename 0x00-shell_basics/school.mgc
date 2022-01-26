@@ -1,2 +1,2 @@
 #!/bin/bash
-file !:mime school.mgc/x=School !:string SCHOOL=0
+file -m school.mgc test School -t /[0]|
