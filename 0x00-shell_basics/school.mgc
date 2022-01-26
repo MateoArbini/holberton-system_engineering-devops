@@ -1,2 +1,2 @@
 #!/bin/bash
-file !:mime school.mgc !:string -0
+file !:mime school.mgc/x=School !:string SCHOOL=0
