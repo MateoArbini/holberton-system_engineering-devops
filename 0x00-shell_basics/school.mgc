@@ -1,2 +1,2 @@
 #!/bin/bash
-file -tCm school.mgc test/x-School
+file -t -C -m school.mgc test/x=School
