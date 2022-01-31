@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name ".gif" -ls -l -mindepth 0 -print
+find . -mindepth 0 -type f -name ".gif" -printf "%d\n" | LC_ALL=C sort -k 1.1f,1.1
