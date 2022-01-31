@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.gif" | cut -b 3 | LC_ALL=C sort -k 5 -n
+find . -name "*.gif" | cut -b 3 | LC_ALL=C sort -f
