@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u | find -type d /etc/passwd
+cat /etc/passwd | sort users
