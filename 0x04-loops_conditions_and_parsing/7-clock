@@ -6,7 +6,7 @@
 i=0
 counter=1
 hour=0
-while ((counter<=719))
+while ((counter<=720))
 do
 	if ((i==0))
 	then
