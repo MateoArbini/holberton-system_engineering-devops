@@ -4,4 +4,4 @@
 #not have a TTY
 #Display in a user-oriented format
 #Show process hierarchy
-ps -aux
+ps -aux -f
