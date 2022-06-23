@@ -3,6 +3,6 @@
 #localhost resolves to 127.0.0.2
 #facebook.com resolves to 8.8.8.8.
 sudo cp /etc/hosts /etc/hosts.modified
-echo "127.0.0.2		localhost" > /etc/hosts.modifief
+echo "127.0.0.2		localhost" > /etc/hosts.modified
 echo "8.8.8.8		facebook.com">> /etc/hosts.modified
 cp /etc/hosts.modified /etc/hosts
